@@ -20,11 +20,10 @@ class Solution(object):
         lets say a number 123: 123 = 1*100 +2*10 + 3. so taking mod 9 on lhs we get 1+2+3. hence by number theory it is viable to solve this problem using mod9 
 
         note : my solution starts next line
-        All the best.
+        best wishes from my side on solving this problem.
         
         """
         
-        # Changed '=' to '==' for the comparison check
         if num == 0:
             return 0
         return 1 + (num - 1) % 9
